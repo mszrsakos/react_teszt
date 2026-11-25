@@ -1,3 +1,8 @@
+import Header from './components/Header'
+import StudentList from './components/StudentList'
+import Footer from './components/Footer'
+
+
 export default function App(){
   return(
     <main>
@@ -8,43 +13,13 @@ export default function App(){
   )
 }
 
-function StudentList(){
-  return(
-  <>
-    <StudentCard/>
-    <StudentCard/>
-    <StudentCard/>
-  </>
-  )
-}
 
-function Header(){
-  return(
-    <>
-      <h1>Tanulói kurzuskatalógus</h1>
-      <hr />
-    </>
-  )
-}
 
-function StudentCard(){
-  return(
-    <>
-      <h1>Ákos</h1>
-      <p>Informatika</p>
-      <p>React</p>
-    </>
-    
-  )
-}
 
-function Footer(){
-  return(
-    <>
-      <footer>2026 Frontend</footer>
-    </>
-  )
-}
+
+
+
+
 
 
 
